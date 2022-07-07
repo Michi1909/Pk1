@@ -22,8 +22,8 @@ public class Angestellter {
 	public double berechneJahresgehalt() {
 		return monatsgehalt*12;
 	}
-	public int compareTo(Angestellter other) {
-		return Double.compare(this.monatsgehalt, other.monatsgehalt);
-	}
+//	public int compareTo(Angestellter other) {
+//		return Double.compare(this.monatsgehalt, other.monatsgehalt);
+//	}
 
 }

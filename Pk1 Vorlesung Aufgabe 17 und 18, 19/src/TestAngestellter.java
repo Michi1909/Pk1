@@ -22,7 +22,7 @@ public class TestAngestellter {
 		System.out.println(anges1.getGehalt());
 		System.out.println(anges1.getName());
 		
-		System.out.println(anges1.compareTo(angest));
+		//System.out.println(anges1.compareTo(angest));
 		List<Angestellter> test = new LinkedList<Angestellter>();
 		test.add(anges1);
 		test.add(angest);
